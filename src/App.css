@@ -1,0 +1,53 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2193b0;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6dd5ed;
+}
+
+.location-weather {
+    margin-top: 20px;
+}
+
+.location-weather h2,
+.location-weather h3,
+.location-weather p {
+    margin: 10px 0;
+}
